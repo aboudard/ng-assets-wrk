@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@import './assets/variables';
+body {
+  background-color: #e4dede;
+  color: $textColor;
+}
+/* import bootstrap
+$primary:       red !default;
+@import '~bootstrap/scss/bootstrap'; */
+
