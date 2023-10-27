@@ -1,5 +1,2 @@
-@import "./lib-variables";
-body {
-    background-color: $bg;
-    color: $main;
-}
+@import "lib-variables";
+@import "lib-main";

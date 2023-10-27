@@ -4,7 +4,11 @@ body {
   background-color: #e4dede;
   color: $textColor;
 }
-/* import bootstrap
-$primary:       red !default;
-@import '~bootstrap/scss/bootstrap'; */
 
+/* import bootstrap */
+$primary:       rgb(161, 7, 7) !default;
+@import '~bootstrap/scss/bootstrap';
+
+/* import ng-lib */
+$main: #0f07a4 !default;
+@import '@abo/ng-lib'
