@@ -2,3 +2,8 @@ body {
     background-color: $bg;
     color: $main;
 }
+.logo {
+    background-image: url('img/angular-logo.png');
+    width: 136px;
+    height: 44px;
+}
