@@ -1,3 +1,3 @@
 # NgAssetsWk
 
-Angular workspace with a libraray exposing scss resources to be integrated in an Angular application.
+Angular workspace with a library exposing scss resources to be integrated in an Angular application.
