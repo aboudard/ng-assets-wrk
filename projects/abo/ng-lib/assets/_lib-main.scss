@@ -1,9 +1,19 @@
 body {
+    font-family: 'Segoe UI';
     background-color: $bg;
     color: $main;
 }
-.logo {
+h1.logo:before {
+    content: "";
     background-image: url('img/angular-logo.png');
-    width: 136px;
-    height: 44px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-inline-end: 1rem;
+}
+h1.logo.next:before {
+    background-image: url('img/angular-next.png');
 }
