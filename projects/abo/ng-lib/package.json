@@ -11,6 +11,12 @@
   "exports": {
     ".": {
       "sass": "./assets/lib-styles.scss"
+    },
+    "./variables": {
+      "sass": "./assets/_lib-variables.scss"
+    },
+    "./mixins": {
+      "sass": "./assets/_lib-mixins.scss"
     }
   }
 }

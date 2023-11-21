@@ -1,0 +1,13 @@
+@use "@abo/ng-lib/variables" as lib;
+@use "@abo/ng-lib/mixins" as mix;
+li {
+    @include mix.reset-list;
+}
+div {
+    color: lib.$main;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid lib.$main;
+    border-radius: 5px;
+    background-color: lib.$mainBg;
+}
