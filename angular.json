@@ -143,6 +143,5 @@
         }
       }
     }
-  },
-  "defaultProject": "@abo/ng-lib"
+  }
 }
