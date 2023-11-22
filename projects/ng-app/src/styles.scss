@@ -7,7 +7,7 @@ body {
 
 /* import bootstrap */
 $primary:       rgb(161, 7, 7) !default;
-@import '~bootstrap/scss/bootstrap';
+@import 'bootstrap/scss/bootstrap';
 
 /* import ng-lib */
 $main: #f4094b !default;

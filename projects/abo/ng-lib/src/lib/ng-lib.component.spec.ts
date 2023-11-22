@@ -8,8 +8,8 @@ describe('NgLibComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NgLibComponent ]
-    })
+    imports: [NgLibComponent]
+})
     .compileComponents();
   });
 
