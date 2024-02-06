@@ -1,0 +1,6 @@
+{
+	"$schema": "http://json-schema.org/schema",
+	"$id": "NgLibSchematics",
+	"title": "Lib Install Schema",
+	"type": "object"
+}
