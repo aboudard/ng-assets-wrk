@@ -4,7 +4,6 @@
   "compilerOptions": {
     "paths": {
       "@abo/ng-lib": [
-        "dist/abo/ng-lib/abo-ng-lib",
         "dist/abo/ng-lib"
       ]
     },
