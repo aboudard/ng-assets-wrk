@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
+import { NgLibService } from './ng-lib.service';
 
 @Component({
     selector: 'lib-ng-lib',
@@ -12,9 +13,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NgLibComponent implements OnInit {
 
-  constructor() { }
+  service = inject(NgLibService);
 
   ngOnInit(): void {
+    this.service.test();
   }
 
 }

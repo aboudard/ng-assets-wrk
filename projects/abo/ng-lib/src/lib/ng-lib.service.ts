@@ -6,4 +6,8 @@ import { Injectable } from '@angular/core';
 export class NgLibService {
 
   constructor() { }
+
+  public test(): void {
+    console.log('test');
+  }
 }
